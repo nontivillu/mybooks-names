@@ -1,5 +1,5 @@
-const {expect} = require('chai')
-const starWarsNames = require('.')
+import {expect} from 'chai'
+import starWarsNames from '.'
 
 describe('starwars-names', () => {
   it('should have a list of all available names', () => {
